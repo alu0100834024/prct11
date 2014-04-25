@@ -1,0 +1,97 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title[El número $\pi$]{Práctica 11. Número $\pi$}
+\author[alu0100834024]{Javier de león Morales}
+\institute{TE}
+\date[25/04/2014]{25 de abril del 2014}
+
+\usetheme{Madrid}
+\definecolor {Violeta}{RGB}{122,59,122}
+\definecolor {Azul}{RGB}{0,88,147}
+\definecolor {Gris}{RGB}{56,61,66}
+
+\setbeamercolor*{palette primary}{use=structure, fg=white, bg=Violeta}
+\setbeamercolor*{palette secundary}{use=structure, fg=white, bg=Azul}
+\setbeamercolor*{palette tertiary}{use=structure, fg=white, bg=Gris}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Indice}
+\tableofcontents
+\end{frame}
+
+\section{Motivación y Objetivos}
+\begin{frame}
+\begin{block}{Definición e inicios}
+\frametitle{Motivación y Objetivos}
+El número $\pi$ ha sido encontrado en manuscritos egipcios, mesopotámicos y rusos anteriores a Cristo. Tras sí deja una estela de matemáticos que emplearon esta constante infinita en sus cálculos. Uno de los más importantes es el matemático Leonard Euler, quien empleó oficialmente por primera vez esta notación en su libro ``Introducción al cálculo infinitesimal''. En cambio, el primero en adoptar dicho símbolo ($\pi$) fue Jones en 1706.
+%
+En sí, este número irracional es la relación entre la longitud de una circunferencia y su diámetro, en geometría euclidiana.Es un número irracional y se emplea frecuentemente en matemáticas.
+%
+Nuestro objetivo principal es dar a conocer el número $\pi$ mediante diapositivas en BEAMER.
+\end{block}
+\end{frame}
+%
+\section{Introducción}
+\begin{frame}
+\frametitle{Introduccion}
+
+
+
+El número $\pi$ es de carácter irracional, es decir con infinitos decimales. Lo que significa que no puede expresarse como fracción de dos números enteros. También es un número trascendente, es decir, que no es la raíz de ningún polinomio de coeficientes enteros. En el siglo XIX, el matemático alemán Ferdinand Lindemann demostró este echo, cerrando con ello definitivamente la permanente y ardua investigación acerca del problema de la cuadratura del círculo, indicando que no tiene solución.
+También se sabe que $\pi$ tampoco es un número de Liouville (Mahler,21 1953), es decir, no sólo es trascendental sino que no puede ser aproximado por una secuencia de racionales rápidamente convergente.
+%
+Fue Euclides el primero en demostrar que la relación entre una circunferencia y su diámetro es una cantidad constante. No obstante, existen diversas definiciones del número $\pi$, pero las más comunes son:
+
+$\pi$ es la razón entre la longitud de cualquier circunferencia y la de su diámetro. (Definición principal por excelencia).
+$\pi$ es el área de un círculo unitario (de radio que tiene longitud 1, en el plano geométrico usual o plano euclídeo).
+
+\end{frame}
+
+
+\section {Fórmulas}
+\begin{frame}
+\frametitle{Fórmulas}
+\begin{block}
+A continuación procederemos a identificar algunas de las fórmulas más importantes en las que aparece $\pi$.
+%
+%
+%
+Ángulos: 180 grados son equivalentes a $\pi$ radianes.
+%
+%
+\begin{itemize}
+\item área el círculo de radio  r: $ A= \pi r*r $\pause
+\item longitud de la circunferencia de radio r: $ C= 2 \pi r $ \pause
+\item producto de Wallis: $ \prod_{n=1}^{\infty} \left(\frac{2n}{2n-1}\cdot\frac{2n}{2n+1}\right) = \frac{2}{1} \cdot \frac{2}{3} \cdot \frac{4}{3} \cdot \frac{4}{5} \cdot \frac{6}{5} \cdot \frac{6}{7} \cdot \frac{8}{7} \cdot \frac{8}{9} \cdots = \frac{\pi}{2} $ \pause
+\item área de la esfera $ 4 \pi r*r $ \pause
+\item fórmula de Euler $\sum_{n=0}^{\infty }\cfrac{2^n n!^2}{(2n + 1)!}=1 + \frac{1}{3} + \frac{1 \cdot 2}{3 \cdot 5} + \frac{1 \cdot 2 \cdot 3}{3 \cdot 5 \cdot 7} + \cdots = \frac{\pi}{2}$
+%
+\end{itemize}
+%
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Bibliografia}
+\begin{thebibliography}{10}
+\beamertemplatebookbibitems
+\bibitem [Número $\pi$,wikipedia]{guia}
+Wikipedia número $\pi$:
+
+{\small $ http://es.wikipedia.org/wiki/Numero_\pi $}
+\bibitem [Número $\pi$,juegosdelogica]{guia}
+Juegos de logica número $\pi$:
+{\small $ http://www.juegosdelogica.com/numero_\pi.htm $ }
+\end{thebibliography}
+\end{frame}
+
+\end{document}
+

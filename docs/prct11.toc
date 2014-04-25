@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Motivaci\IeC {\'o}n y Objetivos}{3}{0}{1}
+\beamer@sectionintoc {2}{Introducci\IeC {\'o}n}{4}{0}{2}
+\beamer@sectionintoc {3}{F\IeC {\'o}rmulas}{5}{0}{3}
